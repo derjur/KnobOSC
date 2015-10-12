@@ -22,7 +22,7 @@ clientobject.connect((clientaddress,clientport))
 # Build message data
 msg = OSCMessage()
 msg.setAddress("/dev/0/0/mon")
-msg.append(0.2)
+msg.append(0.4)
 
 # Send the message data
 print "Sending ", msg, " to ", clientaddress, " on port ", clientport
